@@ -1,0 +1,65 @@
+format_version = 5
+id = "mgs.es.trucos"
+version = "1.0.0"
+name = "Metal Gear Solid - Trucos"
+author = "MGS Spanish Recompiled"
+resolver = "declarative"
+save_compatibility = "shared"
+[[target]]
+game_id = "*"
+[[feature]]
+id = "vida"
+name = "vida"
+group = "Trucos"
+default_enabled = false
+[[feature]]
+id = "municion"
+name = "municion"
+group = "Trucos"
+default_enabled = false
+[[feature]]
+id = "explosivos"
+name = "explosivos"
+group = "Trucos"
+default_enabled = false
+[[feature]]
+id = "objetos"
+name = "objetos"
+group = "Trucos"
+default_enabled = false
+[[feature]]
+id = "invisible"
+name = "invisible"
+group = "Trucos"
+default_enabled = false
+[[feature]]
+id = "alerta"
+name = "alerta"
+group = "Trucos"
+default_enabled = false
+[[feature]]
+id = "oxigeno"
+name = "oxigeno"
+group = "Trucos"
+default_enabled = false
+[[plugin]]
+feature = "vida"
+id = "mgs.es.trucos.vida"
+[[plugin]]
+feature = "municion"
+id = "mgs.es.trucos.municion"
+[[plugin]]
+feature = "explosivos"
+id = "mgs.es.trucos.explosivos"
+[[plugin]]
+feature = "objetos"
+id = "mgs.es.trucos.objetos"
+[[plugin]]
+feature = "invisible"
+id = "mgs.es.trucos.invisible"
+[[plugin]]
+feature = "alerta"
+id = "mgs.es.trucos.alerta"
+[[plugin]]
+feature = "oxigeno"
+id = "mgs.es.trucos.oxigeno"
