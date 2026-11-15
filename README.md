@@ -42,6 +42,15 @@ No confundir el código de los trucos publicado aquí con una versión jugable c
 
 El usuario debe aportar legítimamente sus propios archivos de los discos y de la BIOS. **Este repositorio no proporciona BIOS, imágenes de discos, archivos comerciales del juego ni código del juego recompilado.**
 
+## Proyectos que nos han servido de base y referencia
+
+Este port español se ha desarrollado apoyándonos especialmente en el trabajo previo de **dos proyectos independientes**. Queremos reconocerlos expresamente:
+
+1. **[Metal Gear Solid Recompiled](https://github.com/alexbeavs-ps1-ports/metal-gear-solid-recomp)** — punto de partida y referencia para el port y su flujo de recompilación. Su edición objetivo original no es la PAL española SLES-01734; nuestra adaptación se centra en esa versión.
+2. **[Metal Gear Solid RE:INTEGRAL](https://github.com/Drommedhar/mgs-reintegral)** — proyecto de referencia del que hemos aprendido y aprovechado ideas para nuestro desarrollo, respetando la autoría y las licencias de sus componentes.
+
+**Gracias a sus desarrolladores por compartir su trabajo.** MGS-castellano es un proyecto independiente; no es una versión oficial de ninguno de los dos, ni implica su respaldo.
+
 ## Créditos y licencias
 
 - [PSXRecomp](https://github.com/mstan/psxrecomp) — framework de recompilación; licencia PolyForm Noncommercial 1.0.0.
