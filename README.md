@@ -53,6 +53,10 @@ Este port español se ha desarrollado apoyándonos especialmente en el trabajo p
 
 **Gracias a sus desarrolladores por compartir su trabajo.** MGS-castellano es un proyecto independiente; no es una versión oficial de ninguno de los dos, ni implica su respaldo.
 
+## Desarrollo y asistencia de IA
+
+**Proyecto impulsado por su creador, con asistencia técnica de ChatGPT (OpenAI)** en el análisis, la adaptación de código, la resolución de problemas de compilación, la integración de trucos y la documentación. ChatGPT es una herramienta de inteligencia artificial, no una cuenta de GitHub ni un colaborador humano. Esta mención reconoce su participación sin implicar que OpenAI patrocine o avale el proyecto.
+
 ## Créditos y licencias
 
 - [PSXRecomp](https://github.com/mstan/psxrecomp) — framework de recompilación; licencia PolyForm Noncommercial 1.0.0.
