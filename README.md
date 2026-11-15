@@ -1,6 +1,6 @@
-# Metal Gear Solid — PAL Español Recompiled
+# Metal Gear Solid — PAL Español Recompiled (BETA)
 
-**Port independiente de Metal Gear Solid PAL español (SLES-01734) para Windows, con siete trucos integrados.**
+**BETA — Port independiente de Metal Gear Solid PAL español (SLES-01734) para Windows, con siete trucos integrados.**
 
 Este proyecto adapta la edición española de PlayStation 1 mediante recompilación, utilizando el framework PSXRecomp y el launcher recomp-ui. No está afiliado a Konami ni a los desarrolladores de los proyectos utilizados como base.
 
@@ -31,6 +31,8 @@ Este proyecto adapta la edición española de PlayStation 1 mediante recompilaci
 No se ha verificado la compatibilidad con otras regiones o ediciones. Los archivos CUE deben mantenerse junto a los archivos de imagen a los que hacen referencia.
 
 ## Estado de publicación
+
+**Estado: BETA (desarrollo y pruebas).** El juego y los siete trucos se han probado en el equipo de desarrollo, pero la distribución pública para Windows todavía no está disponible ni validada en otros equipos.
 
 **En desarrollo: la descarga jugable y su instalador todavía no están disponibles.**
 
