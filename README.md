@@ -22,13 +22,29 @@ Este proyecto adapta la edición española de PlayStation 1 mediante recompilaci
 
 | Componente | Requisito |
 | --- | --- |
-| Juego | **Metal Gear Solid PAL español — SLES-01734** |
-| Discos | **Disco 1 y Disco 2** de esa edición |
-| BIOS | **SCPH-5552**, europea |
-| Tamaño de BIOS | **524.288 bytes (512 KiB)** |
+| Juego | **Metal Gear Solid PAL español** |
+| Disco 1 | **SLES-01734** |
+| Disco 2 | **SLES-11734** |
+| BIOS de referencia | **SCPH-5552.BIN**, PlayStation 1 europea (PAL) |
+| Tamaño de la BIOS de referencia | **524.288 bytes (512 KiB)** |
+| Formato utilizado en las pruebas | **CUE/BIN**, manteniendo cada CUE vinculado a su BIN |
 | Sistema | Windows |
 
-No se ha verificado la compatibilidad con otras regiones o ediciones. Los archivos CUE deben mantenerse junto a los archivos de imagen a los que hacen referencia.
+La BIOS **SCPH-5552.BIN** es la utilizada durante las pruebas de configuración del launcher. Esta referencia no confirma por sí sola que todas las versiones de BIOS funcionen con el motor recompilado; la compatibilidad de otras revisiones no se ha verificado.
+
+### Verificación de discos e instalación
+
+El launcher castellano en desarrollo dispone de un asistente que permite seleccionar BIOS, Disco 1 y Disco 2. Comprueba los identificadores requeridos (**SLES-01734** y **SLES-11734**) y la presencia de una cabecera ISO 9660 reconocible, sin exigir una coincidencia exacta de hashes SHA-1 o SHA-256.
+
+**Pruebas realizadas en el equipo de desarrollo:**
+
+- Se seleccionó como Disco 1 una edición francesa con identificador **SLES-01506**: el launcher la **rechazó**, mostrando el serial detectado, la región PAL, el resultado de la cabecera y una explicación de qué versión necesita el usuario.
+- Al seleccionar los **dos discos españoles correctos** en CUE/BIN, la instalación **guardó las rutas** y pasó automáticamente a la pantalla **JUGAR**.
+- La lectura de cabecera y serial sirve para identificar la edición, **no garantiza la integridad completa** de la imagen. Actualmente el serial se busca en los primeros 16 MiB.
+
+**Formatos:** CUE/BIN es el formato utilizado en estas pruebas. El verificador contiene una detección preliminar de cabeceras ISO 9660 para ciertas imágenes ISO, pero **todavía no se ha confirmado que el motor recompilado pueda ejecutarlas**. Por tanto, ISO **no se anuncia como formato de juego probado** ni se recomienda en las instrucciones de instalación.
+
+**Objetivo de uso final:** que el usuario pueda abrir el launcher, seleccionar su propia BIOS y sus discos españoles CUE/BIN, y pulsar **JUGAR**, sin compilar manualmente. La preparación y validación de ese flujo completo para otros equipos sigue pendiente.
 
 ## Estado de publicación
 
