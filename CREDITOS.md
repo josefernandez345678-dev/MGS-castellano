@@ -20,7 +20,7 @@ Agradecemos a sus autores el trabajo realizado. La utilización concreta de cód
 
 ## Asistencia de inteligencia artificial
 
-Desarrollo realizado con asistencia técnica de ChatGPT (OpenAI).
+**ChatGPT (OpenAI)** — asistencia técnica durante el desarrollo: análisis y adaptación de código, orientación en compilaciones, integración de los siete trucos y preparación de documentación. La dirección del proyecto y sus pruebas corresponden a su creador. Esta mención no implica patrocinio ni respaldo oficial de OpenAI.
 
 ## Derechos y licencias
 
