@@ -18,6 +18,14 @@
 - Asignar controles, configurar la zona muerta cuando corresponda, guardar y restaurar perfiles sin alterar los de otros mandos.
 - Probar la detección y configuración con diferentes dispositivos y resolver incompatibilidades encontradas.
 
+## Mejoras gráficas — previstas y sujetas a viabilidad técnica
+
+- Estudiar opciones de **resolución de salida** y **escalado de imagen** para diferentes monitores.
+- Evaluar ajustes de **pantalla completa**, modo ventana y presentación de imagen.
+- Investigar posibles mejoras de **nitidez, filtrado y calidad visual**, respetando la estética original de PlayStation.
+- Comprobar la compatibilidad, el rendimiento y la estabilidad de cada mejora antes de anunciarla como disponible.
+- No prometer mejoras gráficas que el motor recompilado actual no admita sin modificaciones adicionales.
+
 ## Mejoras posteriores en estudio
 
 - Mejoras de accesibilidad, claridad de mensajes de error y experiencia de configuración inicial.
