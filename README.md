@@ -49,11 +49,11 @@ El launcher castellano en desarrollo dispone de un asistente que permite selecci
 
 ## Descarga para Windows
 
-**Versión prevista: v0.1.0 — Experimental, totalmente jugable en el equipo de desarrollo.**
+**v0.1.0 — Descarga PORTABLE para Windows x64 (experimental; probada en el equipo de desarrollo).**
 
-La descarga portable se distribuirá desde **[Releases](https://github.com/josefernandez345678-dev/MGS-castellano/releases)** una vez adjuntado y publicado el archivo ZIP. **Mientras no figure un archivo en Releases, la descarga pública aún no está disponible.** El botón «Code > Download ZIP» descarga los archivos del repositorio, **no** el paquete portable jugable.
+**[Descargar ZIP PORTABLE v0.1.0](https://github.com/josefernandez345678-dev/MGS-castellano/releases/tag/v0.1.0)** desde los archivos adjuntos (Assets) de la Release. **No requiere instalador:** basta con extraer el ZIP completo y ejecutar el launcher. La portabilidad en otros equipos y la independencia de rutas externas siguen pendientes de verificación. El botón «Code > Download ZIP» descarga el código del repositorio, **no** el paquete portable jugable.
 
-### Cómo instalarlo (cuando esté publicada la Release)
+### Cómo utilizar el ZIP portable
 
 1. Descargar el ZIP adjunto a la Release y extraerlo por completo en una carpeta.
 2. Ejecutar `MGS-Castellano-Launcher.exe` desde la carpeta extraída, sin moverlo fuera de ella.
@@ -64,7 +64,7 @@ No es necesario compilar el launcher manualmente para utilizar el paquete portab
 
 ## Estado de publicación
 
-**Experimental:** el lanzamiento se ha probado en el equipo de desarrollo, incluidas la configuración inicial, el mando, los trucos y el inicio del juego. No se ha confirmado aún el funcionamiento en una variedad de equipos. La disponibilidad pública depende de que se publique el ZIP en **Releases** y de comprobar los permisos de redistribución de cada componente incluido.
+**Experimental:** el lanzamiento se ha probado en el equipo de desarrollo, incluidas la configuración inicial, el mando, los trucos y el inicio del juego. No se ha confirmado aún el funcionamiento en una variedad de equipos. La versión v0.1.0 se ofrece mediante el ZIP adjunto en **Releases**; debe respetarse la licencia y los permisos de redistribución de cada componente incluido.
 
 ## Uso de archivos originales
 
