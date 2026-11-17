@@ -1,13 +1,14 @@
-# Metal Gear Solid — PAL Español Recompiled (BETA)
+# MGS Castellano — Launcher para Metal Gear Solid PAL Español (v0.1.0 experimental)
 
-**BETA — Port independiente de Metal Gear Solid PAL español (SLES-01734) para Windows, con siete trucos integrados.**
+**Launcher portable de Windows para Metal Gear Solid PAL español (SLES-01734 / SLES-11734), con siete trucos integrados y compatibilidad con mando probada en el equipo de desarrollo.**
 
 Este proyecto adapta la edición española de PlayStation 1 mediante recompilación, utilizando el framework PSXRecomp y el launcher recomp-ui. No está afiliado a Konami ni a los desarrolladores de los proyectos utilizados como base.
 
 ## Características
 
 - Edición PAL española: **SLES-01734**.
-- Launcher utilizado en la compilación local para seleccionar BIOS y archivos del juego.
+- Launcher portable para seleccionar BIOS y los dos discos originales, guardar la instalación y pulsar **JUGAR**.
+- Compatibilidad con mando y logotipo personalizado comprobados en el equipo de desarrollo.
 - Siete trucos integrados y seleccionables:
   - Vida infinita
   - Munición infinita
@@ -44,21 +45,30 @@ El launcher castellano en desarrollo dispone de un asistente que permite selecci
 
 **Formatos:** CUE/BIN es el formato utilizado en estas pruebas. El verificador contiene una detección preliminar de cabeceras ISO 9660 para ciertas imágenes ISO, pero **todavía no se ha confirmado que el motor recompilado pueda ejecutarlas**. Por tanto, ISO **no se anuncia como formato de juego probado** ni se recomienda en las instrucciones de instalación.
 
-**Objetivo de uso final:** que el usuario pueda abrir el launcher, seleccionar su propia BIOS y sus discos españoles CUE/BIN, y pulsar **JUGAR**, sin compilar manualmente. La preparación y validación de ese flujo completo para otros equipos sigue pendiente.
+**Flujo comprobado en el equipo de desarrollo:** extraer el paquete, ejecutar `MGS-Castellano-Launcher.exe`, seleccionar la BIOS y los discos españoles CUE/BIN propios, guardar la instalación y pulsar **JUGAR**. Se han comprobado el reconocimiento de mando y los siete trucos. **No se garantiza todavía compatibilidad en todos los equipos Windows.**
+
+## Descarga para Windows
+
+**Versión prevista: v0.1.0 — Experimental, totalmente jugable en el equipo de desarrollo.**
+
+La descarga portable se distribuirá desde **[Releases](https://github.com/josefernandez345678-dev/MGS-castellano/releases)** una vez adjuntado y publicado el archivo ZIP. **Mientras no figure un archivo en Releases, la descarga pública aún no está disponible.** El botón «Code > Download ZIP» descarga los archivos del repositorio, **no** el paquete portable jugable.
+
+### Cómo instalarlo (cuando esté publicada la Release)
+
+1. Descargar el ZIP adjunto a la Release y extraerlo por completo en una carpeta.
+2. Ejecutar `MGS-Castellano-Launcher.exe` desde la carpeta extraída, sin moverlo fuera de ella.
+3. Seleccionar **su propia BIOS** de PS1 PAL y las imágenes **CUE/BIN de sus propios discos españoles** (Disco 1: SLES-01734; Disco 2: SLES-11734).
+4. Guardar la instalación y abrir **JUGAR**. Los siete trucos se pueden activar desde el launcher.
+
+No es necesario compilar el launcher manualmente para utilizar el paquete portable. No se proporcionan BIOS, imágenes de discos ni archivos comerciales del juego. El ejecutable abierto del motor recompilado, cuando se distribuya con el paquete, **no sustituye los archivos originales que debe aportar el usuario**.
 
 ## Estado de publicación
 
-**Estado: BETA (desarrollo y pruebas).** El juego y los siete trucos se han probado en el equipo de desarrollo, pero la distribución pública para Windows todavía no está disponible ni validada en otros equipos.
-
-**En desarrollo: la descarga jugable y su instalador todavía no están disponibles.**
-
-El port y los siete trucos funcionan en el equipo de desarrollo. La distribución reproducible para terceros, incluido el launcher con el proceso de generación local, aún debe prepararse y probarse.
-
-No confundir el código de los trucos publicado aquí con una versión jugable completa.
+**Experimental:** el lanzamiento se ha probado en el equipo de desarrollo, incluidas la configuración inicial, el mando, los trucos y el inicio del juego. No se ha confirmado aún el funcionamiento en una variedad de equipos. La disponibilidad pública depende de que se publique el ZIP en **Releases** y de comprobar los permisos de redistribución de cada componente incluido.
 
 ## Uso de archivos originales
 
-El usuario debe aportar legítimamente sus propios archivos de los discos y de la BIOS. **Este repositorio no proporciona BIOS, imágenes de discos, archivos comerciales del juego ni código del juego recompilado.**
+El usuario debe aportar legítimamente sus propios archivos de los discos y de la BIOS. **Este repositorio no proporciona BIOS, imágenes de discos ni archivos comerciales del juego original.** Los componentes abiertos del motor que puedan distribuirse se distinguen de esos archivos originales y conservan los requisitos de sus licencias.
 
 ## Proyectos que nos han servido de base y referencia
 
