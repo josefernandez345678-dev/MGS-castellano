@@ -60,6 +60,10 @@ El launcher castellano en desarrollo dispone de un asistente que permite selecci
 3. Seleccionar **su propia BIOS** de PS1 PAL y las imágenes **CUE/BIN de sus propios discos españoles** (Disco 1: SLES-01734; Disco 2: SLES-11734).
 4. Guardar la instalación y abrir **JUGAR**. Los siete trucos se pueden activar desde el launcher.
 
+### Cambio de disco durante la partida
+
+Cuando el juego solicite cambiar de disco, pulsa **F1** para abrir el menú. Dentro del menú, selecciona la opción **Cambio de disco** y elige el **Disco 2** (SLES-11734) que configuraste previamente. Después, vuelve al juego para continuar la partida.
+
 No es necesario compilar el launcher manualmente para utilizar el paquete portable. No se proporcionan BIOS, imágenes de discos ni archivos comerciales del juego. El ejecutable abierto del motor recompilado, cuando se distribuya con el paquete, **no sustituye los archivos originales que debe aportar el usuario**.
 
 ## Próxima versión v0.2.0 — Funciones en desarrollo y pruebas
