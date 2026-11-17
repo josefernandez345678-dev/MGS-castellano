@@ -62,7 +62,9 @@ El launcher castellano en desarrollo dispone de un asistente que permite selecci
 
 ### Cambio de disco durante la partida
 
-Cuando el juego solicite cambiar de disco, pulsa **F1** para abrir el menú. Dentro del menú, selecciona la opción **Cambio de disco** y elige el **Disco 2** (SLES-11734) que configuraste previamente. Después, vuelve al juego para continuar la partida.
+Cuando el juego solicite cambiar de disco, pulsa **F1** para abrir el menú. Dentro del menú, busca la opción de cambio de disco (actualmente aparece **en inglés**) y selecciona el **Disco 2** (SLES-11734) que configuraste previamente. Después, vuelve al juego para continuar la partida.
+
+**Nota:** el menú de F1 todavía está **en inglés**. Su traducción al español está **pendiente**; los nombres de sus opciones pueden aparecer en inglés.
 
 No es necesario compilar el launcher manualmente para utilizar el paquete portable. No se proporcionan BIOS, imágenes de discos ni archivos comerciales del juego. El ejecutable abierto del motor recompilado, cuando se distribuya con el paquete, **no sustituye los archivos originales que debe aportar el usuario**.
 
