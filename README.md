@@ -62,7 +62,9 @@ El launcher castellano en desarrollo dispone de un asistente que permite selecci
 
 ### Cambio de disco durante la partida
 
-Cuando el juego solicite cambiar de disco, pulsa **F1** para abrir el menú. Dentro del menú, selecciona la opción **Cambio de disco** y elige el **Disco 2** (SLES-11734) que configuraste previamente. Después, vuelve al juego para continuar la partida.
+Cuando el juego solicite cambiar de disco, pulsa **F1** para abrir el menú. Dentro del menú, busca la opción de cambio de disco (actualmente aparece **en inglés**) y selecciona el **Disco 2** (SLES-11734) que configuraste previamente. Después, vuelve al juego para continuar la partida.
+
+**Nota:** el menú de F1 todavía está **en inglés**. Su traducción al español está **pendiente**; los nombres de sus opciones pueden aparecer en inglés.
 
 No es necesario compilar el launcher manualmente para utilizar el paquete portable. No se proporcionan BIOS, imágenes de discos ni archivos comerciales del juego. El ejecutable abierto del motor recompilado, cuando se distribuya con el paquete, **no sustituye los archivos originales que debe aportar el usuario**.
 
@@ -75,6 +77,7 @@ No es necesario compilar el launcher manualmente para utilizar el paquete portab
 | Registro de errores (logs) | Pendiente de implementación y pruebas | Guardar errores de inicio, BIOS, discos, mandos y motor en archivos de diagnóstico; evitar datos privados y permitir al usuario compartirlos voluntariamente. |
 | Configuración de teclado | Pendiente de implementación y pruebas | Reasignar teclas, guardar perfiles y restaurar valores predeterminados. |
 | Configuración de mandos | Pendiente de implementación y pruebas | Personalizar botones y perfiles sin alterar el soporte de mando ya existente. |
+| Traducción del menú F1 | Pendiente de implementación y pruebas | Traducir al español las opciones del menú, incluido el cambio de disco. |
 | Mejoras gráficas | En estudio; pendientes de implementación y pruebas | Evaluar resoluciones, filtros y opciones compatibles con el motor, sin prometer características no verificadas. |
 
 **Criterios para publicar:** comprobar el arranque, los siete trucos, los mandos, la BIOS y ambos discos españoles; verificar que la nueva configuración se guarda correctamente y que los logs no incluyen rutas personales ni datos sensibles. La v0.1.0 publicada se mantiene como referencia.
