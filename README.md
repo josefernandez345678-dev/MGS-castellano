@@ -66,6 +66,10 @@ Cuando el juego solicite cambiar de disco, pulsa **F1** para abrir el menú. Den
 
 **Nota:** el menú de F1 todavía está **en inglés**. Su traducción al español está **pendiente**; los nombres de sus opciones pueden aparecer en inglés.
 
+### Cambio de puerto del mando (combate contra Psycho Mantis)
+
+Durante el combate contra **Psycho Mantis**, pulsa **F1** para abrir el menú del juego. Desde ese menú puedes acceder a la opción de **cambio de mando/puerto** y pasar el control del **puerto 1 al puerto 2**, como en la PlayStation original. El menú F1 está actualmente **en inglés** y su traducción al español sigue pendiente. Esta opción ya aparece en el menú del launcher probado; queda por comprobar su funcionamiento durante el combate.
+
 ### Continuar una partida guardada en el Disco 2
 
 **Una vez que ya tengas una partida guardada en el Disco 2**, si cierras el launcher y más adelante vuelves a abrirlo, entra en el **selector de discos**, selecciona **Disco 2 (SLES-11734)** y pulsa **PLAY / SIGUIENTE MISIÓN**. Así podrás iniciar el juego desde el segundo disco y cargar tu partida guardada. No selecciones el Disco 1 para reanudar una partida del Disco 2.
