@@ -66,6 +66,10 @@ Cuando el juego solicite cambiar de disco, pulsa **F1** para abrir el menú. Den
 
 **Nota:** el menú de F1 todavía está **en inglés**. Su traducción al español está **pendiente**; los nombres de sus opciones pueden aparecer en inglés.
 
+### Continuar una partida guardada en el Disco 2
+
+Si has **guardado la partida mientras jugabas al Disco 2** y quieres retomarla más adelante, en el launcher abre el **selector de discos**, selecciona **Disco 2 (SLES-11734)** y pulsa **PLAY / SIGUIENTE MISIÓN** para continuar desde ese disco. No vuelvas a iniciar desde el Disco 1 si tu partida guardada corresponde al segundo disco.
+
 No es necesario compilar el launcher manualmente para utilizar el paquete portable. No se proporcionan BIOS, imágenes de discos ni archivos comerciales del juego. El ejecutable abierto del motor recompilado, cuando se distribuya con el paquete, **no sustituye los archivos originales que debe aportar el usuario**.
 
 ## Próxima versión v0.2.0 — Funciones en desarrollo y pruebas
