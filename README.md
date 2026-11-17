@@ -62,6 +62,21 @@ El launcher castellano en desarrollo dispone de un asistente que permite selecci
 
 No es necesario compilar el launcher manualmente para utilizar el paquete portable. No se proporcionan BIOS, imágenes de discos ni archivos comerciales del juego. El ejecutable abierto del motor recompilado, cuando se distribuya con el paquete, **no sustituye los archivos originales que debe aportar el usuario**.
 
+## Próxima versión v0.2.0 — Funciones en desarrollo y pruebas
+
+> **IMPORTANTE:** Las siguientes mejoras están **planificadas para desarrollo y pruebas** en la rama `dev-v0.2.0`. **Todavía no están implementadas ni incluidas en el ZIP portable v0.1.0.** No se anuncian como funcionalidades terminadas.
+
+| Mejora | Estado | Objetivo |
+| --- | --- | --- |
+| Registro de errores (logs) | Pendiente de implementación y pruebas | Guardar errores de inicio, BIOS, discos, mandos y motor en archivos de diagnóstico; evitar datos privados y permitir al usuario compartirlos voluntariamente. |
+| Configuración de teclado | Pendiente de implementación y pruebas | Reasignar teclas, guardar perfiles y restaurar valores predeterminados. |
+| Configuración de mandos | Pendiente de implementación y pruebas | Personalizar botones y perfiles sin alterar el soporte de mando ya existente. |
+| Mejoras gráficas | En estudio; pendientes de implementación y pruebas | Evaluar resoluciones, filtros y opciones compatibles con el motor, sin prometer características no verificadas. |
+
+**Criterios para publicar:** comprobar el arranque, los siete trucos, los mandos, la BIOS y ambos discos españoles; verificar que la nueva configuración se guarda correctamente y que los logs no incluyen rutas personales ni datos sensibles. La v0.1.0 publicada se mantiene como referencia.
+
+Los fallos y sugerencias pueden comunicarse en [Issues](https://github.com/josefernandez345678-dev/MGS-castellano/issues).
+
 ## Estado de publicación
 
 **Experimental:** el lanzamiento se ha probado en el equipo de desarrollo, incluidas la configuración inicial, el mando, los trucos y el inicio del juego. No se ha confirmado aún el funcionamiento en una variedad de equipos. La versión v0.1.0 se ofrece mediante el ZIP adjunto en **Releases**; debe respetarse la licencia y los permisos de redistribución de cada componente incluido.
