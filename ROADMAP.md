@@ -2,13 +2,13 @@
 
 > **Hoja de ruta provisional — proyecto experimental.** Estas funciones están previstas o en estudio, pero no se anuncian como disponibles en la versión pública actual. El orden puede cambiar y no hay fechas comprometidas.
 
-## Próxima versión experimental del launcher independiente
+## Lanzamiento experimental v0.1.0
 
-- Distribución **portable para Windows x64**, pendiente de empaquetado y pruebas por el autor antes de publicarse.
-- Primer inicio limpio: cada usuario seleccionará su propia BIOS y sus discos españoles compatibles, sin rutas preconfiguradas del equipo de desarrollo.
-- Separación de las configuraciones y partidas personales para evitar incluirlas en el paquete de distribución.
-- Verificación del funcionamiento fuera de la carpeta de desarrollo y desde distintas rutas de Windows.
-- Documentación de instalación, requisitos, uso y limitaciones conocidas.
+- **Comprobado localmente:** paquete portable Windows x64 preparado; launcher iniciado desde carpeta independiente, guardado de instalación, mando, siete trucos e inicio del juego.
+- **Comprobado en el paquete:** no se han detectado imágenes de discos, BIOS ni partidas personales con los filtros aplicados; también se buscaron rutas absolutas en archivos de configuración y texto.
+- **Pendiente:** publicar el ZIP en Releases tras revisar las licencias y avisos de redistribución de todas las dependencias incluidas.
+- **Próximas pruebas:** funcionamiento en otros equipos Windows, distintas rutas e instalaciones desde cero.
+- **Ya documentado:** requisitos, instalación, limitaciones conocidas y créditos en el README.
 
 ## Configuración de controles — desarrollo pendiente
 
@@ -34,7 +34,7 @@
 
 ## Estado de publicación
 
-La versión portable **no se publicará hasta que el autor la pruebe y autorice expresamente**. La configuración avanzada de mandos y teclado no debe considerarse terminada por el hecho de aparecer en esta hoja de ruta.
+La versión portable ha sido probada en el equipo de desarrollo. **Su disponibilidad pública comenzará únicamente al publicarse el archivo ZIP en Releases**; todavía no se confirma compatibilidad en otros equipos. La configuración avanzada de mandos y teclado no debe considerarse terminada por el hecho de aparecer en esta hoja de ruta.
 
 **No se distribuirán BIOS, imágenes de los discos de Metal Gear Solid ni partidas personales.** Cada usuario deberá aportar legítimamente sus archivos compatibles.
 
