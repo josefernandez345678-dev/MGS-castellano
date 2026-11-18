@@ -1,6 +1,6 @@
-# MGS Castellano — Launcher para Metal Gear Solid PAL Español (v0.1.0 experimental)
+# MGS Castellano — Launcher para Metal Gear Solid PAL Español (v0.1.2)
 
-**Launcher portable de Windows para Metal Gear Solid PAL español (SLES-01734 / SLES-11734), con siete trucos integrados y compatibilidad con mando probada en el equipo de desarrollo.**
+**Launcher portable para Windows x64 de Metal Gear Solid PAL español (SLES-01734 / SLES-11734), con siete trucos integrados, configuración de mandos PS/Xbox y editor de teclado. Versión actual: v0.1.2.**
 
 Este proyecto adapta la edición española de PlayStation 1 mediante recompilación, utilizando el framework PSXRecomp y el launcher recomp-ui. No está afiliado a Konami ni a los desarrolladores de los proyectos utilizados como base.
 
@@ -8,7 +8,10 @@ Este proyecto adapta la edición española de PlayStation 1 mediante recompilaci
 
 - Edición PAL española: **SLES-01734**.
 - Launcher portable para seleccionar BIOS y los dos discos originales, guardar la instalación y pulsar **JUGAR**.
-- Compatibilidad con mando y logotipo personalizado comprobados en el equipo de desarrollo.
+- Configuración personalizada de botones para mandos **PS/Xbox**, con perfiles independientes por dispositivo.
+- Guardado de asignaciones y recuperación de perfiles al reiniciar el launcher.
+- **Editor de teclado** integrado y mejoras de visualización de los botones.
+- Compatibilidad con mandos PS/Xbox y logotipo personalizado comprobados en el equipo de desarrollo.
 - Siete trucos integrados y seleccionables:
   - Vida infinita
   - Munición infinita
@@ -49,9 +52,32 @@ El launcher castellano en desarrollo dispone de un asistente que permite selecci
 
 ## Descarga para Windows
 
-**v0.1.0 — Descarga PORTABLE para Windows x64 (experimental; probada en el equipo de desarrollo).**
+**Versión actual: v0.1.2 — ZIP portable para Windows x64.** Esta es la versión publicada recomendada; **v0.1.0 fue una versión experimental anterior**, y v0.1.1 permanece disponible como lanzamiento previo.
 
-**[Descargar ZIP PORTABLE v0.1.0](https://github.com/josefernandez345678-dev/MGS-castellano/releases/tag/v0.1.0)** desde los archivos adjuntos (Assets) de la Release. **No requiere instalador:** basta con extraer el ZIP completo y ejecutar el launcher. La portabilidad en otros equipos y la independencia de rutas externas siguen pendientes de verificación. El botón «Code > Download ZIP» descarga el código del repositorio, **no** el paquete portable jugable.
+**[Descargar MGS1Castellano-v0.1.2.zip](https://github.com/josefernandez345678-dev/MGS-castellano/releases/download/v0.1.2/MGS1Castellano-v0.1.2.zip)** · [Ver notas de la versión v0.1.2](https://github.com/josefernandez345678-dev/MGS-castellano/releases/tag/v0.1.2)
+
+No necesita instalador: extrae **todo** el ZIP y ejecuta el launcher desde su propia carpeta. El botón «Code > Download ZIP» descarga el código del repositorio, **no** el paquete portable para jugar. La compatibilidad fuera del equipo de desarrollo sigue sin verificarse de forma general.
+
+### Novedades de la v0.1.2
+
+- **Mandos PS/Xbox:** personalización de asignaciones de botones y controles.
+- **Perfiles independientes:** las configuraciones de cada tipo de mando se mantienen por separado.
+- **Persistencia:** las asignaciones guardadas se recuperan al cerrar y volver a abrir el launcher.
+- **Teclado:** editor de asignaciones de teclas.
+- **Interfaz:** mejoras en la presentación del editor y en la visualización de botones.
+- **Continuidad:** se mantienen las funciones previas del launcher, los siete trucos y el procedimiento de instalación. Esta actualización se centra en el launcher y sus controles; no anuncia modificaciones al motor del juego.
+
+### Pruebas realizadas para la v0.1.2
+
+En el equipo de desarrollo se ha probado el **paquete preparado para publicación**, además del launcher durante su desarrollo:
+
+- Apertura y funcionamiento del launcher empaquetado de la v0.1.2, con resultado comunicado como satisfactorio.
+- Configuración de mandos **PS** y **Xbox**; comprobación de sus perfiles separados.
+- Conservación y recuperación de las asignaciones configuradas tras reiniciar el launcher.
+- Uso del editor de teclado y comprobación de la presentación de controles.
+- Comprobación del empaquetado actualizado del launcher y de sus bibliotecas de mando.
+
+Estas pruebas son locales y funcionales: **no equivalen a una certificación para todos los mandos o equipos Windows**, ni implican que se haya vuelto a comprobar toda la campaña del juego. Las pruebas anteriores del asistente de instalación, discos españoles, inicio del juego y trucos se documentan más arriba.
 
 ### Cómo utilizar el ZIP portable
 
@@ -78,7 +104,7 @@ No es necesario compilar el launcher manualmente para utilizar el paquete portab
 
 ## Estado de publicación
 
-**Experimental:** el lanzamiento se ha probado en el equipo de desarrollo, incluidas la configuración inicial, el mando, los trucos y el inicio del juego. No se ha confirmado aún el funcionamiento en una variedad de equipos. La versión v0.1.0 se ofrece mediante el ZIP adjunto en **Releases**; debe respetarse la licencia y los permisos de redistribución de cada componente incluido.
+**Versión publicada actual: v0.1.2 (no es la antigua v0.1.0 experimental).** Se han realizado pruebas locales de instalación, controles, trucos e inicio del juego; para v0.1.2 también se han probado la configuración PS/Xbox, sus perfiles independientes, la persistencia de asignaciones y el editor de teclado. No se ha confirmado aún el funcionamiento en una variedad de equipos. El ZIP se ofrece en **Releases**; deben respetarse las licencias y los permisos de redistribución de cada componente incluido.
 
 ## Uso de archivos originales
 
