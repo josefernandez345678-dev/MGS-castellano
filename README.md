@@ -4,6 +4,8 @@
 
 Este proyecto adapta la edición española de PlayStation 1 mediante recompilación, utilizando el framework PSXRecomp y el launcher recomp-ui. No está afiliado a Konami ni a los desarrolladores de los proyectos utilizados como base.
 
+**Un launcher propio y diferenciado:** el paquete descargable de MGS Castellano incorpora una interfaz de launcher personalizada y en castellano, distinta de las interfaces de los dos proyectos que han servido de base y referencia. No es una distribución oficial de esos proyectos. **La excepción lingüística conocida es el menú F1 del juego, que todavía aparece en inglés.**
+
 ## Características
 
 - Edición PAL española: **SLES-01734**.
@@ -86,19 +88,21 @@ Estas pruebas son locales y funcionales: **no equivalen a una certificación par
 3. Seleccionar **su propia BIOS** de PS1 PAL y las imágenes **CUE/BIN de sus propios discos españoles** (Disco 1: SLES-01734; Disco 2: SLES-11734).
 4. Guardar la instalación y abrir **JUGAR**. Los siete trucos se pueden activar desde el launcher.
 
-### Cambio de disco durante la partida
+### Importante: cambio de disco durante la partida (F1)
 
-Cuando el juego solicite cambiar de disco, pulsa **F1** para abrir el menú. Dentro del menú, busca la opción de cambio de disco (actualmente aparece **en inglés**) y selecciona el **Disco 2** (SLES-11734) que configuraste previamente. Después, vuelve al juego para continuar la partida.
+Cuando el juego te pida **cambiar de disco**, pulsa **F1** para abrir el menú. Entre sus opciones encontrarás la de **cambio de disco**: selecciona el **Disco 2 (SLES-11734)**, que ya debes tener configurado, y continúa la partida.
 
-**Nota:** el menú de F1 todavía está **en inglés**. Su traducción al español está **pendiente**; los nombres de sus opciones pueden aparecer en inglés.
+**Disculpad las molestias:** el menú que aparece al pulsar **F1 todavía está en inglés**. Su traducción al castellano está pendiente. El **launcher principal sí está en castellano**; esta limitación afecta al menú F1 del juego.
 
-### Cambio de puerto del mando (combate contra Psycho Mantis)
+### Continuar después de guardar una partida en el Disco 2
 
-Durante el combate contra **Psycho Mantis**, pulsa **F1** para abrir el menú del juego. Desde ese menú puedes acceder a la opción de **cambio de mando/puerto** y pasar el control del **puerto 1 al puerto 2**, como en la PlayStation original. El menú F1 está actualmente **en inglés** y su traducción al español sigue pendiente. Esta opción ya aparece en el menú del launcher probado; queda por comprobar su funcionamiento durante el combate.
+Una vez que hayas **guardado una partida utilizando el Disco 2**, cuando vuelvas a iniciar el launcher entra en el **selector de discos**, elige **Disco 2 (SLES-11734)** y arranca el juego con los **ajustes previamente configurados y guardados** mediante **PLAY / SIGUIENTE MISIÓN**. Así podrás cargar la partida correspondiente al segundo disco sin empezar desde el Disco 1.
 
-### Continuar una partida guardada en el Disco 2
+### Cambio de puerto de mando para Psycho Mantis (F1)
 
-**Una vez que ya tengas una partida guardada en el Disco 2**, si cierras el launcher y más adelante vuelves a abrirlo, entra en el **selector de discos**, selecciona **Disco 2 (SLES-11734)** y pulsa **PLAY / SIGUIENTE MISIÓN**. Así podrás iniciar el juego desde el segundo disco y cargar tu partida guardada. No selecciones el Disco 1 para reanudar una partida del Disco 2.
+Durante el combate contra **Psycho Mantis**, pulsa **F1**. En ese mismo menú encontrarás la opción para **cambiar el mando del puerto 1 al puerto 2**, como en la consola original.
+
+**Estado de la prueba:** la opción está presente en el menú observado durante el desarrollo, pero su funcionamiento específico durante el combate contra Psycho Mantis **todavía no se ha verificado**. El menú F1 sigue pendiente de traducción al castellano.
 
 No es necesario compilar el launcher manualmente para utilizar el paquete portable. No se proporcionan BIOS, imágenes de discos ni archivos comerciales del juego. El ejecutable abierto del motor recompilado, cuando se distribuya con el paquete, **no sustituye los archivos originales que debe aportar el usuario**.
 
